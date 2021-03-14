@@ -1,5 +1,5 @@
 {
-  "name": "elecV2P自用脚本",
+  "name": "elecV2P",
   "author": "留个名字",
   "desc": "自己导出的任务订阅。该订阅适用于 elecV2P，与其他软件并不兼容。相关说明参考：https://github.com/elecV2/elecV2P-dei/tree/master/docs/06-task.md",
   "date": "2021-03-14 14:20:42",
