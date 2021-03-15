@@ -392,33 +392,6 @@
       }
     },
     {
-      "name": "中青浏览赚",
-      "type": "cron",
-      "time": "20 5 10 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js"
-      }
-    },
-    {
-      "name": "中青签到&转盘宝箱",
-      "type": "cron",
-      "time": "*/10 5-23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
-      }
-    },
-    {
-      "name": "中青自动阅读",
-      "type": "cron",
-      "time": "10 */2 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
-      }
-    },
-    {
       "name": "自动更新",
       "type": "cron",
       "time": "30 58 23 * * *",
@@ -427,7 +400,7 @@
         "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js"
       }
     },
-     {
+    {
       "name": "领现金兑换红包",
       "type": "cron",
       "time": "0,1,2 0 * * *",
