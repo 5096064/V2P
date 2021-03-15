@@ -426,6 +426,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js"
       }
+    },
+    {
+      "name": "手机尚学季",
+      "type": "cron",
+      "time": "0 0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xtg.js"
+      }
     }
   ]
 }
