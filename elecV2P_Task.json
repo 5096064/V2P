@@ -417,6 +417,15 @@
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js"
       }
+    },
+     {
+      "name": "领现金兑换红包",
+      "type": "cron",
+      "time": "0,1,2 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Jd/jd_cash_exchange.js"
+      }
     }
   ]
 }
