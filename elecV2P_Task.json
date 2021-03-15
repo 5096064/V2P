@@ -266,6 +266,15 @@
       }
     },
     {
+      "name": "crazyJoy挂机",
+      "type": "cron",
+      "time": "10 1,12 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy_coin.js"
+      }
+    },
+    {
       "name": "闪购盲盒",
       "type": "cron",
       "time": "20 8 * * *",
