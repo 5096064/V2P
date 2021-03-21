@@ -410,33 +410,6 @@
       }
     },
     {
-      "name": "中青看点看看赚&浏览赚",
-      "type": "cron",
-      "time": "30 6 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-      }
-    }, 
-    {
-      "name": "中青看点签到&开转盘宝箱&阅读时长",
-      "type": "cron",
-      "time": "10 */1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
-      }
-    }, 
-    {
-      "name": "中青看点自动阅读",
-      "type": "cron",
-      "time": "10 */2 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js"
-      }
-    }, 
-    {
       "name": "手机尚学季",
       "type": "cron",
       "time": "0 0 0 * * *",
