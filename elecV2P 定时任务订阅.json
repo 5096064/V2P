@@ -46,7 +46,7 @@
       "time": "10 */1 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js"
       }
     },
     {
@@ -55,7 +55,7 @@
       "time": "10 */2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/Youth_Read.js"
       }
     },
     {
@@ -64,7 +64,7 @@
       "time": "30 6 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
+        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js"
       }
     },
     {
