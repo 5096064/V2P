@@ -64,7 +64,7 @@
       "time": "30 6 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Script/master/Task/youth.js"
+        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
       }
     },
     {
