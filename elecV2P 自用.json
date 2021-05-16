@@ -5,42 +5,6 @@
   "date": "2021-05-11 13:09:32",
   "list": [
     {
-      "name": "京喜财富岛提现",
-      "type": "cron",
-      "time": "0 0 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/5096064/V2P/5096064-QX/jx_cfdtx.js"
-      }
-    },
-    {
-      "name": "中青看点签到&开转盘宝箱&阅读时长",
-      "type": "cron",
-      "time": "10 */1 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js"
-      }
-    },
-    {
-      "name": "中青看点自动阅读",
-      "type": "cron",
-      "time": "10 */2 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js"
-      }
-    },
-    {
-      "name": "中青看点看看赚&浏览赚(需配合专用重写获取cookie)",
-      "type": "cron",
-      "time": "30 6 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-      }
-    },
-    {
       "name": "京东京豆变动通知",
       "type": "cron",
       "time": "2 9 * * *",
@@ -82,7 +46,83 @@
       "time": "0 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js"
+      }
+    },
+    {
+      "name": "清空日志",
+      "type": "cron",
+      "time": "30 18 23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js"
+      }
+    },
+    {
+      "name": "软更新升级",
+      "type": "cron",
+      "time": "30 58 23 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js"
+      }
+    },
+    {
+      "name": "Python安装(Docker下)",
+      "type": "schedule",
+      "time": "0",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/python-install.js"
+      },
+      "running": false
+    },
+    {
+      "name": "任务只添加不开始",
+      "type": "cron",
+      "time": "10 0 * * *",
+      "job": {
+        "type": "exec",
+        "target": "python3 -V"
+      },
+      "running": false
+    },
+    {
+      "name": "任务添加并执行",
+      "type": "schedule",
+      "time": "10",
+      "job": {
+        "type": "exec",
+        "target": "node -v"
+      },
+      "running": false
+    },
+    {
+      "name": "Shell 指令远程任务",
+      "type": "schedule",
+      "time": "0",
+      "job": {
+        "type": "exec",
+        "target": "python3 https://raw.githubusercontent.com/elecV2/elecV2P/master/script/Shell/elecV2P-exam.py"
+      },
+      "running": false
+    },
+    {
+      "name": "京喜财富岛提现并发修改版ztxtop",
+      "type": "cron",
+      "time": "0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/ztxtop/x/aa4ddeca813fbf5c231dd4adaec68a7632cb292c/jx_cfdtx.js"
+      }
+    },
+    {
+      "name": "京东半点京豆雨龙猪猪",
+      "type": "cron",
+      "time": "30 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_half_redrain.js"
       }
     }
   ]
