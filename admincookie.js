@@ -24,7 +24,7 @@ const DR=0
 const DC=1
 
 //0可批量导入ck,  1清空ck  2单独导入ck
-const QK=0
+const QK=1
 
 
 
