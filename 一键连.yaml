@@ -9,57 +9,57 @@ proxies:
     type: http
     server: global.ap.fastqvpn.com
     port: 29980
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇦🇺一键连｜澳洲
     type: http
     server: global.ap.fastqvpn.com
     port: 29982
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇨🇦一键连｜加拿大
     type: http
     server: global.ap.fastqvpn.com
     port: 29983
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇩🇪一键连｜德国
     type: http
     server: global.ap.fastqvpn.com
     port: 29984
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇯🇵一键连｜日本
     type: http
     server: global.ap.fastqvpn.com
     port: 29985
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇸🇬一键连｜新加坡
     type: http
     server: global.ap.fastqvpn.com
     port: 29986
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇬🇧一键连｜英国
     type: http
     server: global.ap.fastqvpn.com
     port: 29987
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
   - name: 🇺🇸一键连｜美国
     type: http
     server: global.ap.fastqvpn.com
     port: 29988
-    username: "406835337633988608"
-    password: 8c1394dc-128e-40f7-a8fa-8fe9fed05094
+    username: "439272454746013696"
+    password: 63dcc867-bbd9-4c58-8035-b329274f56c4
     tls: true
 proxy-groups:
   - name: 🚀 节点选择
