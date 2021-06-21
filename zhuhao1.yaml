@@ -37,8 +37,8 @@ proxies:
     server: a1.ap.fastqvpn.com
     port: 29980
     type: http
-    username: "BBBBBBBBBBBBBBB"
-    password: BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB
+    username: "459308767515770880"
+    password: 9e7a6c9e-8bd8-4300-9787-d1c484739145
     tls: true
     skip-cert-verify: false
 # 炮灰token: https://bihai.000webhostapp.com/yjl/traffic.php?id=
