@@ -50,6 +50,15 @@
       }
     },
     {
+      "name": "京东半点京豆雨龙猪猪",
+      "type": "cron",
+      "time": "30 * * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/5096064/jd/main/scripts/longzhuzhu_nianyu/long_half_redrain.js"
+      }
+    },
+    {
       "name": "清空日志",
       "type": "cron",
       "time": "30 18 23 * * *",
@@ -108,39 +117,30 @@
       "running": false
     },
     {
-      "name": "京喜财富岛提现并发修改版ztxtop",
+      "name": "依赖",
       "type": "cron",
-      "time": "0 0 * * *",
+      "time": "10 * * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/ztxtop/x/aa4ddeca813fbf5c231dd4adaec68a7632cb292c/jx_cfdtx.js"
+        "target": "https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/utils/JDJRValidator_Pure.js"
       }
     },
     {
-      "name": "京东半点京豆雨龙猪猪",
+      "name": "京东宠汪汪",
       "type": "cron",
-      "time": "30 * * * *",
+      "time": "15 0-23/2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/5096064/jd/main/scripts/longzhuzhu_nianyu/long_half_redrain.js"
-      }
-    },
-    {
-      "name": "动物联萌",
-      "type": "cron",
-      "time": "5 * * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/5096064/jd/main/scripts/jd_zoo.js"
+        "target": "https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy.js"
       }
     },
     {
       "name": "京东宠汪汪积分兑换奖品",
       "type": "cron",
-      "time": "0 0-16/8 * * *",
+      "time": "59 7,15,23 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/5096064/jd/main/scripts/jd_joy_reward.js"
+        "target": "https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_joy_reward.js"
       }
     },
     {
